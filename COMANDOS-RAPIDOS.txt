@@ -17,6 +17,12 @@
 
   Ou peca a pasta ZIP por rede / pendrive (copia do colega que ja tem).
 
+  Se aparecer "blocked by your policy":
+  -> NAO use winget nem .bat
+  -> Leia: PC-CORPORATIVO-BLOQUEIOS.md
+  -> Use CMD:  cd pasta-do-projeto
+               py -3 -m http.server 8080
+
 
 --- INSTALAR GIT (opcional, se o TI permitir) ---
 
