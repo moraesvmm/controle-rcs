@@ -27,9 +27,26 @@ O navegador precisa de HTTP (não abra o `index.html` com duplo clique).
 
 ## O que copiar para outro PC
 
-1. Copie a pasta inteira **`controle-rc-system`** (pendrive, rede, ZIP).
-2. No outro PC, confira se existe o arquivo **`js\env.runtime.js`** (configuração do Supabase).
-3. Dê duplo clique em **`INICIAR-SERVIDOR.bat`**.
+### Opção A — Sem Git (recomendado em PC corporativo)
+
+1. Baixe o ZIP no navegador:  
+   **https://github.com/moraesvmm/controle-rcs/archive/refs/heads/main.zip**
+2. Extraia o arquivo (a pasta será `controle-rcs-main`).
+3. Confira se existe **`js\env.runtime.js`**.
+4. Duplo clique em **`INICIAR-SERVIDOR.bat`**.
+
+### Opção B — Com Git
+
+```powershell
+git clone https://github.com/moraesvmm/controle-rcs.git
+cd controle-rcs
+```
+
+Se aparecer *"git não é reconhecido"*, use a **Opção A** ou peça ao TI para instalar o [Git for Windows](https://git-scm.com/download/win).
+
+### Opção C — Cópia direta
+
+Copie a pasta inteira **`controle-rc-system`** (pendrive, rede, ZIP enviado por colega).
 
 Não é necessário instalar nada além do **Python 3** (se ainda não tiver).
 

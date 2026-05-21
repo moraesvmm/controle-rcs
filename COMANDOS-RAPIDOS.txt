@@ -3,6 +3,30 @@
   Copie e cole no PowerShell ou CMD
 ================================================================================
 
+--- BAIXAR SEM GIT (PC corporativo sem git instalado) ---
+
+  1) Abra no navegador:
+     https://github.com/moraesvmm/controle-rcs/archive/refs/heads/main.zip
+
+  2) Extraia o ZIP (botao direito -> Extrair tudo)
+
+  3) A pasta ficara: controle-rcs-main
+     Renomeie para: controle-rc-system (opcional)
+
+  4) Duplo clique: INICIAR-SERVIDOR.bat
+
+  Ou peca a pasta ZIP por rede / pendrive (copia do colega que ja tem).
+
+
+--- INSTALAR GIT (opcional, se o TI permitir) ---
+
+  Winget (PowerShell):
+    winget install --id Git.Git -e
+
+  Depois feche e abra o terminal e use:
+    git clone https://github.com/moraesvmm/controle-rcs.git
+
+
 --- FORMA MAIS FACIL (recomendada) ---
   Duplo clique no arquivo:
     INICIAR-SERVIDOR.bat          -> so este computador
